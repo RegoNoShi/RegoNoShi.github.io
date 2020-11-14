@@ -2081,6 +2081,10 @@ fieldset[disabled] .btn-neutral.active {
   color: #40a249;
 }
 
+.nav-link {
+  font-weight: bold;
+}
+
 .btn-neutral:hover:not(.nav-link),
 .btn-neutral:focus:not(.nav-link) {
   -webkit-box-shadow: none;
@@ -3586,6 +3590,7 @@ body {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   line-height: 1.625rem;
+  font-weight: bold;
 }
 
 .navbar .navbar-toggler {
@@ -7549,4 +7554,20 @@ a.credit {
 /* Common Style */
 .section {
   padding-bottom: 0;
+}
+
+.btn-linkedin {
+  background-color: #0077b5;
+}
+
+.btn-twitter {
+  background-color: #1da1f2;
+}
+
+.btn-github {
+  background-color: #4078c0;
+}
+
+.btn-reddit {
+  background-color: #ff5700;
 }
